@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUITourApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyStackView()
         }
     }
 }
