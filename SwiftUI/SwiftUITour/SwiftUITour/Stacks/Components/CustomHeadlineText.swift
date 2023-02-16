@@ -8,6 +8,7 @@ struct CustomHeadlineText : View {
     
     var body: some View {
         Text(data)
+            .multilineTextAlignment(.center)
             .padding()
             .font(.headline)
             .fontWeight(.heavy)
