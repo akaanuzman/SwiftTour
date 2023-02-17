@@ -13,6 +13,7 @@
 		F1746D35299EDB6C0086C749 /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D34299EDB6C0086C749 /* MyStackView.swift */; };
 		F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D3B299EE2390086C749 /* CustomHeadlineText.swift */; };
 		F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */; };
+		F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D41299EFB830086C749 /* IconTextFormField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1746D34299EDB6C0086C749 /* MyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackView.swift; sourceTree = "<group>"; };
 		F1746D3B299EE2390086C749 /* CustomHeadlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeadlineText.swift; sourceTree = "<group>"; };
 		F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexadecimalColor.swift; sourceTree = "<group>"; };
+		F1746D41299EFB830086C749 /* IconTextFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextFormField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F1746D40299EFB570086C749 /* State Management */,
 				F1746D30299EDB290086C749 /* Stacks */,
 				F1746D21299ED0F10086C749 /* SwiftUITourApp.swift */,
 				F1746D25299ED0F20086C749 /* Assets.xcassets */,
@@ -105,6 +108,14 @@
 				F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1746D40299EFB570086C749 /* State Management */ = {
+			isa = PBXGroup;
+			children = (
+				F1746D41299EFB830086C749 /* IconTextFormField.swift */,
+			);
+			path = "State Management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
