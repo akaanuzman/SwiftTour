@@ -17,6 +17,8 @@
 		F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */; };
 		F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D41299EFB830086C749 /* IconTextFormField.swift */; };
 		F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49F729A41D7100965597 /* CircleImageView.swift */; };
+		F19A49FB29A4269100965597 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FA29A4269100965597 /* ListView.swift */; };
+		F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FD29A4281100965597 /* ProfileItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexadecimalColor.swift; sourceTree = "<group>"; };
 		F1746D41299EFB830086C749 /* IconTextFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextFormField.swift; sourceTree = "<group>"; };
 		F19A49F729A41D7100965597 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		F19A49FA29A4269100965597 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F19A49FD29A4281100965597 /* ProfileItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F19A49F929A4266000965597 /* List */,
 				F15229E229A2459600D5940C /* Kingfisher */,
 				F1746D40299EFB570086C749 /* State Management */,
 				F1746D30299EDB290086C749 /* Stacks */,
@@ -156,6 +161,23 @@
 				F19A49F729A41D7100965597 /* CircleImageView.swift */,
 			);
 			path = CircleImage;
+			sourceTree = "<group>";
+		};
+		F19A49F929A4266000965597 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F19A49FC29A4280400965597 /* Models */,
+				F19A49FA29A4269100965597 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F19A49FC29A4280400965597 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F19A49FD29A4281100965597 /* ProfileItemModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
 				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
+				F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */,
 				F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
