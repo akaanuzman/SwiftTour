@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E229A8F36A003E6F5A /* TweetListView.swift */; };
+		F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E429A8F381003E6F5A /* TweetModel.swift */; };
+		F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E729A8FF66003E6F5A /* TweetView.swift */; };
 		F15229E929A2461600D5940C /* KingfisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15229E829A2461600D5940C /* KingfisherView.swift */; };
 		F15229EC29A246D000D5940C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F15229EB29A246D000D5940C /* Kingfisher */; };
 		F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D21299ED0F10086C749 /* SwiftUITourApp.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F127D3E229A8F36A003E6F5A /* TweetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListView.swift; sourceTree = "<group>"; };
+		F127D3E429A8F381003E6F5A /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		F127D3E729A8FF66003E6F5A /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 		F15229E829A2461600D5940C /* KingfisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherView.swift; sourceTree = "<group>"; };
 		F1746D1E299ED0F10086C749 /* SwiftUITour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1746D21299ED0F10086C749 /* SwiftUITourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITourApp.swift; sourceTree = "<group>"; };
@@ -49,6 +55,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F127D3E029A8F33B003E6F5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F19A49FA29A4269100965597 /* ListView.swift */,
+				F127D3E229A8F36A003E6F5A /* TweetListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F127D3E129A8F341003E6F5A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F127D3E729A8FF66003E6F5A /* TweetView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F15229E229A2459600D5940C /* Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,8 +189,9 @@
 		F19A49F929A4266000965597 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				F127D3E129A8F341003E6F5A /* Components */,
+				F127D3E029A8F33B003E6F5A /* Views */,
 				F19A49FC29A4280400965597 /* Models */,
-				F19A49FA29A4269100965597 /* ListView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -176,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				F19A49FD29A4281100965597 /* ProfileItemModel.swift */,
+				F127D3E429A8F381003E6F5A /* TweetModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
+				F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
 				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
 				F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */,
@@ -264,6 +290,8 @@
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
+				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
+				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
 				F1746D35299EDB6C0086C749 /* MyStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
