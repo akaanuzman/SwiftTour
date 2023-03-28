@@ -22,6 +22,9 @@
 		F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49F729A41D7100965597 /* CircleImageView.swift */; };
 		F19A49FB29A4269100965597 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FA29A4269100965597 /* ListView.swift */; };
 		F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FD29A4281100965597 /* ProfileItemModel.swift */; };
+		F1AA8F5D29D33252001E612E /* NavigationUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F5C29D33252001E612E /* NavigationUserView.swift */; };
+		F1AA8F5F29D33264001E612E /* NavigationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F5E29D33264001E612E /* NavigationUserModel.swift */; };
+		F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F6029D33773001E612E /* UserDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		F19A49F729A41D7100965597 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		F19A49FA29A4269100965597 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F19A49FD29A4281100965597 /* ProfileItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItemModel.swift; sourceTree = "<group>"; };
+		F1AA8F5C29D33252001E612E /* NavigationUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserView.swift; sourceTree = "<group>"; };
+		F1AA8F5E29D33264001E612E /* NavigationUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserModel.swift; sourceTree = "<group>"; };
+		F1AA8F6029D33773001E612E /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F1AA8F5929D331FE001E612E /* Navigation */,
 				F19A49F929A4266000965597 /* List */,
 				F15229E229A2459600D5940C /* Kingfisher */,
 				F1746D40299EFB570086C749 /* State Management */,
@@ -205,6 +212,32 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F1AA8F5929D331FE001E612E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA8F5B29D33225001E612E /* View */,
+				F1AA8F5A29D3321E001E612E /* Model */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F1AA8F5A29D3321E001E612E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA8F5E29D33264001E612E /* NavigationUserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1AA8F5B29D33225001E612E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1AA8F5C29D33252001E612E /* NavigationUserView.swift */,
+				F1AA8F6029D33773001E612E /* UserDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,14 +317,17 @@
 				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
 				F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
+				F1AA8F5D29D33252001E612E /* NavigationUserView.swift in Sources */,
 				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
 				F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */,
+				F1AA8F5F29D33264001E612E /* NavigationUserModel.swift in Sources */,
 				F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
 				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
+				F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */,
 				F1746D35299EDB6C0086C749 /* MyStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
