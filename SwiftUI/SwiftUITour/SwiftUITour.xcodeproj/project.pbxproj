@@ -25,6 +25,8 @@
 		F1AA8F5D29D33252001E612E /* NavigationUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F5C29D33252001E612E /* NavigationUserView.swift */; };
 		F1AA8F5F29D33264001E612E /* NavigationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F5E29D33264001E612E /* NavigationUserModel.swift */; };
 		F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AA8F6029D33773001E612E /* UserDetailView.swift */; };
+		F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0D99929D4954C00D1CE85 /* TabbarModel.swift */; };
+		F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0D99B29D496E100D1CE85 /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		F1AA8F5C29D33252001E612E /* NavigationUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserView.swift; sourceTree = "<group>"; };
 		F1AA8F5E29D33264001E612E /* NavigationUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserModel.swift; sourceTree = "<group>"; };
 		F1AA8F6029D33773001E612E /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		F1D0D99929D4954C00D1CE85 /* TabbarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarModel.swift; sourceTree = "<group>"; };
+		F1D0D99B29D496E100D1CE85 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F1D0D99529D4952000D1CE85 /* Tabbar */,
 				F1AA8F5929D331FE001E612E /* Navigation */,
 				F19A49F929A4266000965597 /* List */,
 				F15229E229A2459600D5940C /* Kingfisher */,
@@ -238,6 +243,31 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F1D0D99529D4952000D1CE85 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0D99729D4953500D1CE85 /* Model */,
+				F1D0D99629D4952F00D1CE85 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		F1D0D99629D4952F00D1CE85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0D99B29D496E100D1CE85 /* TabbarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1D0D99729D4953500D1CE85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1D0D99929D4954C00D1CE85 /* TabbarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,8 +353,10 @@
 				F1AA8F5F29D33264001E612E /* NavigationUserModel.swift in Sources */,
 				F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
+				F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
+				F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */,
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
 				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
 				F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */,
