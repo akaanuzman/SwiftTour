@@ -19,6 +19,10 @@
 		F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D3B299EE2390086C749 /* CustomHeadlineText.swift */; };
 		F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */; };
 		F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D41299EFB830086C749 /* IconTextFormField.swift */; };
+		F17A3F2429DE38D7008DC32B /* Spacer+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2329DE38D7008DC32B /* Spacer+Constant.swift */; };
+		F17A3F2629DE396F008DC32B /* EnviromentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2529DE396F008DC32B /* EnviromentView.swift */; };
+		F17A3F2829DE3B78008DC32B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2729DE3B78008DC32B /* UserViewModel.swift */; };
+		F17A3F2A29DE3C92008DC32B /* DateControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2929DE3C92008DC32B /* DateControlView.swift */; };
 		F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49F729A41D7100965597 /* CircleImageView.swift */; };
 		F19A49FB29A4269100965597 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FA29A4269100965597 /* ListView.swift */; };
 		F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FD29A4281100965597 /* ProfileItemModel.swift */; };
@@ -43,6 +47,10 @@
 		F1746D3B299EE2390086C749 /* CustomHeadlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeadlineText.swift; sourceTree = "<group>"; };
 		F1746D3E299EE4C10086C749 /* HexadecimalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexadecimalColor.swift; sourceTree = "<group>"; };
 		F1746D41299EFB830086C749 /* IconTextFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextFormField.swift; sourceTree = "<group>"; };
+		F17A3F2329DE38D7008DC32B /* Spacer+Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer+Constant.swift"; sourceTree = "<group>"; };
+		F17A3F2529DE396F008DC32B /* EnviromentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentView.swift; sourceTree = "<group>"; };
+		F17A3F2729DE3B78008DC32B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F17A3F2929DE3C92008DC32B /* DateControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateControlView.swift; sourceTree = "<group>"; };
 		F19A49F729A41D7100965597 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		F19A49FA29A4269100965597 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F19A49FD29A4281100965597 /* ProfileItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileItemModel.swift; sourceTree = "<group>"; };
@@ -126,6 +134,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F17A3F1D29DE36A2008DC32B /* Environment */,
 				F1D0D99529D4952000D1CE85 /* Tabbar */,
 				F1AA8F5929D331FE001E612E /* Navigation */,
 				F19A49F929A4266000965597 /* List */,
@@ -188,6 +197,41 @@
 				F1746D41299EFB830086C749 /* IconTextFormField.swift */,
 			);
 			path = "State Management";
+			sourceTree = "<group>";
+		};
+		F17A3F1D29DE36A2008DC32B /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				F17A3F2229DE38C5008DC32B /* ViewModels */,
+				F17A3F2129DE38BF008DC32B /* Views */,
+				F17A3F1F29DE38A3008DC32B /* Extensions */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		F17A3F1F29DE38A3008DC32B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F17A3F2329DE38D7008DC32B /* Spacer+Constant.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F17A3F2129DE38BF008DC32B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F17A3F2529DE396F008DC32B /* EnviromentView.swift */,
+				F17A3F2929DE3C92008DC32B /* DateControlView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F17A3F2229DE38C5008DC32B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F17A3F2729DE3B78008DC32B /* UserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		F19A49F629A41D6200965597 /* CircleImage */ = {
@@ -351,10 +395,14 @@
 				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
 				F19A49FE29A4281100965597 /* ProfileItemModel.swift in Sources */,
 				F1AA8F5F29D33264001E612E /* NavigationUserModel.swift in Sources */,
+				F17A3F2429DE38D7008DC32B /* Spacer+Constant.swift in Sources */,
 				F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */,
+				F17A3F2A29DE3C92008DC32B /* DateControlView.swift in Sources */,
+				F17A3F2629DE396F008DC32B /* EnviromentView.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
+				F17A3F2829DE3B78008DC32B /* UserViewModel.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
 				F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */,
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
