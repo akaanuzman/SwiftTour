@@ -1,5 +1,5 @@
 import SwiftUI
 
-class UserViewModel: ObservableObject {
+class UserViewModell: ObservableObject {
     @Published var currentDate : Date = Date()
 }

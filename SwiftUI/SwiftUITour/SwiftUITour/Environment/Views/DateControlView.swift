@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct DateControlView: View {
-    @EnvironmentObject var userViewModel : UserViewModel
+    @EnvironmentObject var userViewModel : UserViewModell
     var body: some View {
         Text(userViewModel.currentDate.description)
         Button("Date Reset") {

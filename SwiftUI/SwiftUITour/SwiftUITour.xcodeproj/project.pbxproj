@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F12517FC2A01AC7300A74387 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FB2A01AC7300A74387 /* UserModel.swift */; };
+		F12517FE2A01ADC700A74387 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FD2A01ADC700A74387 /* UserService.swift */; };
+		F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */; };
+		F12518022A01B01700A74387 /* Logging+AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12518012A01B01700A74387 /* Logging+AFError.swift */; };
+		F12518052A01B04700A74387 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F12518042A01B04700A74387 /* Logging */; };
+		F12518072A01B1A100A74387 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12518062A01B1A100A74387 /* UserViewModel.swift */; };
+		F125180B2A01B26500A74387 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125180A2A01B26500A74387 /* UserView.swift */; };
 		F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E229A8F36A003E6F5A /* TweetListView.swift */; };
 		F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E429A8F381003E6F5A /* TweetModel.swift */; };
 		F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E729A8FF66003E6F5A /* TweetView.swift */; };
@@ -23,7 +30,7 @@
 		F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D41299EFB830086C749 /* IconTextFormField.swift */; };
 		F17A3F2429DE38D7008DC32B /* Spacer+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2329DE38D7008DC32B /* Spacer+Constant.swift */; };
 		F17A3F2629DE396F008DC32B /* EnviromentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2529DE396F008DC32B /* EnviromentView.swift */; };
-		F17A3F2829DE3B78008DC32B /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2729DE3B78008DC32B /* UserViewModel.swift */; };
+		F17A3F2829DE3B78008DC32B /* UserViewModell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2729DE3B78008DC32B /* UserViewModell.swift */; };
 		F17A3F2A29DE3C92008DC32B /* DateControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17A3F2929DE3C92008DC32B /* DateControlView.swift */; };
 		F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49F729A41D7100965597 /* CircleImageView.swift */; };
 		F19A49FB29A4269100965597 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19A49FA29A4269100965597 /* ListView.swift */; };
@@ -41,6 +48,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F12517FB2A01AC7300A74387 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F12517FD2A01ADC700A74387 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePathEnum.swift; sourceTree = "<group>"; };
+		F12518012A01B01700A74387 /* Logging+AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logging+AFError.swift"; sourceTree = "<group>"; };
+		F12518062A01B1A100A74387 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F125180A2A01B26500A74387 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F127D3E229A8F36A003E6F5A /* TweetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListView.swift; sourceTree = "<group>"; };
 		F127D3E429A8F381003E6F5A /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
 		F127D3E729A8FF66003E6F5A /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
@@ -56,7 +69,7 @@
 		F1746D41299EFB830086C749 /* IconTextFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextFormField.swift; sourceTree = "<group>"; };
 		F17A3F2329DE38D7008DC32B /* Spacer+Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer+Constant.swift"; sourceTree = "<group>"; };
 		F17A3F2529DE396F008DC32B /* EnviromentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentView.swift; sourceTree = "<group>"; };
-		F17A3F2729DE3B78008DC32B /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F17A3F2729DE3B78008DC32B /* UserViewModell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModell.swift; sourceTree = "<group>"; };
 		F17A3F2929DE3C92008DC32B /* DateControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateControlView.swift; sourceTree = "<group>"; };
 		F19A49F729A41D7100965597 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		F19A49FA29A4269100965597 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
@@ -80,6 +93,7 @@
 			files = (
 				F15229EC29A246D000D5940C /* Kingfisher in Frameworks */,
 				F13079092A018A3A00983B81 /* ActivityIndicatorView in Frameworks */,
+				F12518052A01B04700A74387 /* Logging in Frameworks */,
 				F13079012A016EB400983B81 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +107,67 @@
 				F1AF7D722A0192EC00FC2524 /* FoxService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		F12517F42A01AC3700A74387 /* ApiConnectionWithAlamofireV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F12517FA2A01AC6400A74387 /* Extensions */,
+				F12517F92A01AC5E00A74387 /* Enums */,
+				F12517F82A01AC5400A74387 /* Services */,
+				F12517F72A01AC4F00A74387 /* ViewModels */,
+				F12517F62A01AC4700A74387 /* Models */,
+				F12517F52A01AC4300A74387 /* Views */,
+			);
+			path = ApiConnectionWithAlamofireV2;
+			sourceTree = "<group>";
+		};
+		F12517F52A01AC4300A74387 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F125180A2A01B26500A74387 /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F12517F62A01AC4700A74387 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F12517FB2A01AC7300A74387 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F12517F72A01AC4F00A74387 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F12518062A01B1A100A74387 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F12517F82A01AC5400A74387 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F12517FD2A01ADC700A74387 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F12517F92A01AC5E00A74387 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F12517FA2A01AC6400A74387 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F12518012A01B01700A74387 /* Logging+AFError.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F127D3E029A8F33B003E6F5A /* Views */ = {
@@ -192,6 +267,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F12517F42A01AC3700A74387 /* ApiConnectionWithAlamofireV2 */,
 				F130790A2A01904800983B81 /* ApiConnectionWithAlamofire */,
 				F17A3F1D29DE36A2008DC32B /* Environment */,
 				F1D0D99529D4952000D1CE85 /* Tabbar */,
@@ -288,7 +364,7 @@
 		F17A3F2229DE38C5008DC32B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F17A3F2729DE3B78008DC32B /* UserViewModel.swift */,
+				F17A3F2729DE3B78008DC32B /* UserViewModell.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -399,6 +475,7 @@
 				F15229EB29A246D000D5940C /* Kingfisher */,
 				F13079002A016EB400983B81 /* Alamofire */,
 				F13079082A018A3A00983B81 /* ActivityIndicatorView */,
+				F12518042A01B04700A74387 /* Logging */,
 			);
 			productName = SwiftUITour;
 			productReference = F1746D1E299ED0F10086C749 /* SwiftUITour.app */;
@@ -432,6 +509,7 @@
 				F15229EA29A246D000D5940C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				F13078FF2A016EB400983B81 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				F13079072A018A3A00983B81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				F12518032A01B04700A74387 /* XCRemoteSwiftPackageReference "swift-log" */,
 			);
 			productRefGroup = F1746D1F299ED0F10086C749 /* Products */;
 			projectDirPath = "";
@@ -459,8 +537,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12517FE2A01ADC700A74387 /* UserService.swift in Sources */,
 				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
 				F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */,
+				F125180B2A01B26500A74387 /* UserView.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
 				F1AF7D6E2A01921100FC2524 /* RandomFoxView.swift in Sources */,
 				F1AA8F5D29D33252001E612E /* NavigationUserView.swift in Sources */,
@@ -475,14 +555,18 @@
 				F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */,
 				F17A3F2A29DE3C92008DC32B /* DateControlView.swift in Sources */,
 				F17A3F2629DE396F008DC32B /* EnviromentView.swift in Sources */,
+				F12517FC2A01AC7300A74387 /* UserModel.swift in Sources */,
 				F1746D3F299EE4C10086C749 /* HexadecimalColor.swift in Sources */,
-				F17A3F2829DE3B78008DC32B /* UserViewModel.swift in Sources */,
+				F17A3F2829DE3B78008DC32B /* UserViewModell.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
 				F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */,
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
+				F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */,
 				F1AF7D762A01932500FC2524 /* EndPointEnum.swift in Sources */,
 				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
+				F12518072A01B1A100A74387 /* UserViewModel.swift in Sources */,
 				F1AF7D712A0192C300FC2524 /* FoxModel.swift in Sources */,
+				F12518022A01B01700A74387 /* Logging+AFError.swift in Sources */,
 				F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */,
 				F1746D35299EDB6C0086C749 /* MyStackView.swift in Sources */,
 			);
@@ -696,6 +780,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F12518032A01B04700A74387 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		F13078FF2A016EB400983B81 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -723,6 +815,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F12518042A01B04700A74387 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F12518032A01B04700A74387 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
 		F13079002A016EB400983B81 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F13078FF2A016EB400983B81 /* XCRemoteSwiftPackageReference "Alamofire" */;

@@ -2,7 +2,7 @@ import SwiftUI
 
 struct EnviromentView: View {
     @Environment(\.verticalSizeClass) var verticalSize
-    @StateObject var userViewModel = UserViewModel()
+    @StateObject var userViewModel = UserViewModell()
     var body: some View {
         NavigationView {
             VStack{

@@ -40,7 +40,7 @@ struct AppBarView: View {
 
 struct DotsIndicatorView: View {
     var body: some View {
-        ActivityIndicatorView(isVisible: .constant(true), type: .opacityDots())
+        ActivityIndicatorView(isVisible: .constant(true), type: .opacityDots()).padding()
     }
 }
 
