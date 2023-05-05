@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F10043672A052D7800E1C976 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10043662A052D7800E1C976 /* TimerView.swift */; };
+		F1068D9D2A059DAE00FFF8BE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1068D9F2A059DAE00FFF8BE /* Localizable.strings */; };
+		F1068DA32A059DDC00FFF8BE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1068DA22A059DDC00FFF8BE /* WelcomeView.swift */; };
+		F1068DA52A059E8E00FFF8BE /* LocalKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1068DA42A059E8E00FFF8BE /* LocalKeys.swift */; };
+		F1068DA82A05A0BE00FFF8BE /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1068DA72A05A0BE00FFF8BE /* HelloView.swift */; };
+		F1068DAA2A05A2AA00FFF8BE /* ViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1068DA92A05A2AA00FFF8BE /* ViewStyle.swift */; };
 		F12517FC2A01AC7300A74387 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FB2A01AC7300A74387 /* UserModel.swift */; };
 		F12517FE2A01ADC700A74387 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FD2A01ADC700A74387 /* UserService.swift */; };
 		F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */; };
@@ -57,6 +62,12 @@
 
 /* Begin PBXFileReference section */
 		F10043662A052D7800E1C976 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		F1068D9E2A059DAE00FFF8BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1068DA02A059DAF00FFF8BE /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F1068DA22A059DDC00FFF8BE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F1068DA42A059E8E00FFF8BE /* LocalKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalKeys.swift; sourceTree = "<group>"; };
+		F1068DA72A05A0BE00FFF8BE /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		F1068DA92A05A2AA00FFF8BE /* ViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStyle.swift; sourceTree = "<group>"; };
 		F12517FB2A01AC7300A74387 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		F12517FD2A01ADC700A74387 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePathEnum.swift; sourceTree = "<group>"; };
@@ -126,6 +137,24 @@
 				F14FBB8F2A058E2E00D8659C /* TabGestureView.swift */,
 			);
 			path = OtherViews;
+			sourceTree = "<group>";
+		};
+		F1068DA12A059DCE00FFF8BE /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				F1068DA22A059DDC00FFF8BE /* WelcomeView.swift */,
+				F1068DA42A059E8E00FFF8BE /* LocalKeys.swift */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		F1068DA62A059F6100FFF8BE /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				F1068DA72A05A0BE00FFF8BE /* HelloView.swift */,
+				F1068DA92A05A2AA00FFF8BE /* ViewStyle.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 		F10EBA0A2A0190C400647C17 /* Service */ = {
@@ -278,6 +307,7 @@
 		F1746D15299ED0F10086C749 = {
 			isa = PBXGroup;
 			children = (
+				F1068D9F2A059DAE00FFF8BE /* Localizable.strings */,
 				F1746D20299ED0F10086C749 /* SwiftUITour */,
 				F1746D1F299ED0F10086C749 /* Products */,
 			);
@@ -294,6 +324,8 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F1068DA62A059F6100FFF8BE /* ViewModifier */,
+				F1068DA12A059DCE00FFF8BE /* Localizable */,
 				F10043652A052D6900E1C976 /* OtherViews */,
 				F1BFF0CB2A031E8200A343E8 /* PropertyWrapper */,
 				F12517F42A01AC3700A74387 /* ApiConnectionWithAlamofireV2 */,
@@ -567,6 +599,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = F1746D15299ED0F10086C749;
 			packageReferences = (
@@ -590,6 +623,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1746D2A299ED0F20086C749 /* Preview Assets.xcassets in Resources */,
+				F1068D9D2A059DAE00FFF8BE /* Localizable.strings in Resources */,
 				F1746D26299ED0F20086C749 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -608,6 +642,7 @@
 				F125180B2A01B26500A74387 /* UserView.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
 				F1BFF0D32A03220600A343E8 /* IntToStringWrapper.swift in Sources */,
+				F1068DA52A059E8E00FFF8BE /* LocalKeys.swift in Sources */,
 				F1AF7D6E2A01921100FC2524 /* RandomFoxView.swift in Sources */,
 				F1AA8F5D29D33252001E612E /* NavigationUserView.swift in Sources */,
 				F1746D42299EFB830086C749 /* IconTextFormField.swift in Sources */,
@@ -627,11 +662,14 @@
 				F17A3F2829DE3B78008DC32B /* UserViewModell.swift in Sources */,
 				F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */,
 				F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */,
+				F1068DA82A05A0BE00FFF8BE /* HelloView.swift in Sources */,
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
 				F1BFF0D12A031F8C00A343E8 /* UserWrapperModel.swift in Sources */,
+				F1068DAA2A05A2AA00FFF8BE /* ViewStyle.swift in Sources */,
 				F1BFF0CF2A031F7800A343E8 /* UpperCaseWrapper.swift in Sources */,
 				F10043672A052D7800E1C976 /* TimerView.swift in Sources */,
 				F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */,
+				F1068DA32A059DDC00FFF8BE /* WelcomeView.swift in Sources */,
 				F14FBB8C2A0555DE00D8659C /* TextEditingView.swift in Sources */,
 				F1AF7D762A01932500FC2524 /* EndPointEnum.swift in Sources */,
 				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
@@ -645,6 +683,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1068D9F2A059DAE00FFF8BE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1068D9E2A059DAE00FFF8BE /* en */,
+				F1068DA02A059DAF00FFF8BE /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F1746D2B299ED0F20086C749 /* Debug */ = {
