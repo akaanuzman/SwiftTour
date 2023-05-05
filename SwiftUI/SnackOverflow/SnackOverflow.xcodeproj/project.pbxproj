@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BCA5132A05A95B007F1648 /* SnackOverflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5122A05A95B007F1648 /* SnackOverflowApp.swift */; };
+		F1BCA5152A05A95B007F1648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5142A05A95B007F1648 /* ContentView.swift */; };
+		F1BCA5172A05A95B007F1648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCA5162A05A95B007F1648 /* Assets.xcassets */; };
+		F1BCA51B2A05A95B007F1648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCA51A2A05A95B007F1648 /* Preview Assets.xcassets */; };
+		F1BCA5272A05BE91007F1648 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCA5262A05BE91007F1648 /* Colors.xcassets */; };
+		F1BCA5292A05BE9A007F1648 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BCA5282A05BE9A007F1648 /* Images.xcassets */; };
+		F1BCA52D2A05C186007F1648 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA52C2A05C186007F1648 /* WelcomeView.swift */; };
+		F1BCA5302A05C3D6007F1648 /* ImageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */; };
+		F1BCA5332A05C69E007F1648 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5322A05C69E007F1648 /* ColorExtensions.swift */; };
+		F1BCA5352A05C9EE007F1648 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5342A05C9EE007F1648 /* IconEnum.swift */; };
+		F1BCA5372A05CAC0007F1648 /* StringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5362A05CAC0007F1648 /* StringEnum.swift */; };
+		F1BCA53A2A05CBF3007F1648 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5392A05CBF3007F1648 /* FacebookButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1BCA50F2A05A95B007F1648 /* SnackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BCA5122A05A95B007F1648 /* SnackOverflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverflowApp.swift; sourceTree = "<group>"; };
+		F1BCA5142A05A95B007F1648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1BCA5162A05A95B007F1648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BCA5182A05A95B007F1648 /* SnackOverflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnackOverflow.entitlements; sourceTree = "<group>"; };
+		F1BCA51A2A05A95B007F1648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1BCA5262A05BE91007F1648 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F1BCA5282A05BE9A007F1648 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1BCA52C2A05C186007F1648 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnum.swift; sourceTree = "<group>"; };
+		F1BCA5322A05C69E007F1648 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		F1BCA5342A05C9EE007F1648 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
+		F1BCA5362A05CAC0007F1648 /* StringEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEnum.swift; sourceTree = "<group>"; };
+		F1BCA5392A05CBF3007F1648 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BCA50C2A05A95B007F1648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BCA5062A05A95B007F1648 = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5112A05A95B007F1648 /* SnackOverflow */,
+				F1BCA5102A05A95B007F1648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BCA5102A05A95B007F1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA50F2A05A95B007F1648 /* SnackOverflow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BCA5112A05A95B007F1648 /* SnackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5242A05BE66007F1648 /* Resources */,
+				F1BCA5232A05BE5E007F1648 /* Features */,
+				F1BCA5222A05BE57007F1648 /* Products */,
+				F1BCA5212A05BE4E007F1648 /* Utils */,
+				F1BCA5122A05A95B007F1648 /* SnackOverflowApp.swift */,
+				F1BCA5142A05A95B007F1648 /* ContentView.swift */,
+				F1BCA5182A05A95B007F1648 /* SnackOverflow.entitlements */,
+				F1BCA5192A05A95B007F1648 /* Preview Content */,
+			);
+			path = SnackOverflow;
+			sourceTree = "<group>";
+		};
+		F1BCA5192A05A95B007F1648 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA51A2A05A95B007F1648 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1BCA5212A05BE4E007F1648 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5312A05C692007F1648 /* Extensions */,
+				F1BCA52E2A05C3C5007F1648 /* Enums */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1BCA5222A05BE57007F1648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5382A05CBE2007F1648 /* Components */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		F1BCA5232A05BE5E007F1648 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA52A2A05C15E007F1648 /* Authentication */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F1BCA5242A05BE66007F1648 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5252A05BE83007F1648 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F1BCA5252A05BE83007F1648 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5162A05A95B007F1648 /* Assets.xcassets */,
+				F1BCA5262A05BE91007F1648 /* Colors.xcassets */,
+				F1BCA5282A05BE9A007F1648 /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F1BCA52A2A05C15E007F1648 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA52B2A05C176007F1648 /* Welcome */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F1BCA52B2A05C176007F1648 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA52C2A05C186007F1648 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		F1BCA52E2A05C3C5007F1648 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */,
+				F1BCA5342A05C9EE007F1648 /* IconEnum.swift */,
+				F1BCA5362A05CAC0007F1648 /* StringEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		F1BCA5312A05C692007F1648 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5322A05C69E007F1648 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F1BCA5382A05CBE2007F1648 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1BCA5392A05CBF3007F1648 /* FacebookButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BCA50E2A05A95B007F1648 /* SnackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BCA51E2A05A95B007F1648 /* Build configuration list for PBXNativeTarget "SnackOverflow" */;
+			buildPhases = (
+				F1BCA50B2A05A95B007F1648 /* Sources */,
+				F1BCA50C2A05A95B007F1648 /* Frameworks */,
+				F1BCA50D2A05A95B007F1648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackOverflow;
+			productName = SnackOverflow;
+			productReference = F1BCA50F2A05A95B007F1648 /* SnackOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BCA5072A05A95B007F1648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F1BCA50E2A05A95B007F1648 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F1BCA50A2A05A95B007F1648 /* Build configuration list for PBXProject "SnackOverflow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BCA5062A05A95B007F1648;
+			productRefGroup = F1BCA5102A05A95B007F1648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BCA50E2A05A95B007F1648 /* SnackOverflow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BCA50D2A05A95B007F1648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCA5272A05BE91007F1648 /* Colors.xcassets in Resources */,
+				F1BCA5292A05BE9A007F1648 /* Images.xcassets in Resources */,
+				F1BCA51B2A05A95B007F1648 /* Preview Assets.xcassets in Resources */,
+				F1BCA5172A05A95B007F1648 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BCA50B2A05A95B007F1648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BCA5152A05A95B007F1648 /* ContentView.swift in Sources */,
+				F1BCA5372A05CAC0007F1648 /* StringEnum.swift in Sources */,
+				F1BCA5332A05C69E007F1648 /* ColorExtensions.swift in Sources */,
+				F1BCA52D2A05C186007F1648 /* WelcomeView.swift in Sources */,
+				F1BCA5352A05C9EE007F1648 /* IconEnum.swift in Sources */,
+				F1BCA53A2A05CBF3007F1648 /* FacebookButton.swift in Sources */,
+				F1BCA5302A05C3D6007F1648 /* ImageEnum.swift in Sources */,
+				F1BCA5132A05A95B007F1648 /* SnackOverflowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1BCA51C2A05A95B007F1648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1BCA51D2A05A95B007F1648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F1BCA51F2A05A95B007F1648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnackOverflow/SnackOverflow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnackOverflow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archeva.SnackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BCA5202A05A95B007F1648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnackOverflow/SnackOverflow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnackOverflow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archeva.SnackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BCA50A2A05A95B007F1648 /* Build configuration list for PBXProject "SnackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCA51C2A05A95B007F1648 /* Debug */,
+				F1BCA51D2A05A95B007F1648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BCA51E2A05A95B007F1648 /* Build configuration list for PBXNativeTarget "SnackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BCA51F2A05A95B007F1648 /* Debug */,
+				F1BCA5202A05A95B007F1648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BCA5072A05A95B007F1648 /* Project object */;
+}
