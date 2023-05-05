@@ -14,6 +14,7 @@ https://user-images.githubusercontent.com/55639112/235707025-017246f8-2fa6-46da-
 ### [Basic List View](https://github.com/akaanuzman/SwiftTour/blob/main/SwiftUI/SwiftUITour/SwiftUITour/List/Views/ListView.swift)
  ![Screenshot 2023-05-02 at 18 07 13](https://user-images.githubusercontent.com/55639112/235707512-2430fd2a-ec31-4ed8-9eda-b0403e6e4349.png)
  
-### [Timer Example](https://github.com/akaanuzman/S
+### [Timer Example](https://github.com/akaanuzman/SwiftTour/blob/main/SwiftUI/SwiftUITour/SwiftUITour/OtherViews/TimerView.swift)
+
 https://user-images.githubusercontent.com/55639112/236567721-7cec16d9-9095-49ec-a991-88366614a8dc.mov
 
