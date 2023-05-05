@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10043672A052D7800E1C976 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10043662A052D7800E1C976 /* TimerView.swift */; };
 		F12517FC2A01AC7300A74387 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FB2A01AC7300A74387 /* UserModel.swift */; };
 		F12517FE2A01ADC700A74387 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FD2A01ADC700A74387 /* UserService.swift */; };
 		F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */; };
@@ -19,6 +20,9 @@
 		F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F127D3E729A8FF66003E6F5A /* TweetView.swift */; };
 		F13079012A016EB400983B81 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F13079002A016EB400983B81 /* Alamofire */; };
 		F13079092A018A3A00983B81 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = F13079082A018A3A00983B81 /* ActivityIndicatorView */; };
+		F14FBB8C2A0555DE00D8659C /* TextEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FBB8B2A0555DE00D8659C /* TextEditingView.swift */; };
+		F14FBB8E2A0557FB00D8659C /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FBB8D2A0557FB00D8659C /* LabelView.swift */; };
+		F14FBB902A058E2E00D8659C /* TabGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14FBB8F2A058E2E00D8659C /* TabGestureView.swift */; };
 		F15229E929A2461600D5940C /* KingfisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15229E829A2461600D5940C /* KingfisherView.swift */; };
 		F15229EC29A246D000D5940C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F15229EB29A246D000D5940C /* Kingfisher */; };
 		F1746D22299ED0F10086C749 /* SwiftUITourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1746D21299ED0F10086C749 /* SwiftUITourApp.swift */; };
@@ -52,6 +56,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F10043662A052D7800E1C976 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		F12517FB2A01AC7300A74387 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		F12517FD2A01ADC700A74387 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		F12517FF2A01AE3900A74387 /* ServicePathEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicePathEnum.swift; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 		F127D3E229A8F36A003E6F5A /* TweetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListView.swift; sourceTree = "<group>"; };
 		F127D3E429A8F381003E6F5A /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
 		F127D3E729A8FF66003E6F5A /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
+		F14FBB8B2A0555DE00D8659C /* TextEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditingView.swift; sourceTree = "<group>"; };
+		F14FBB8D2A0557FB00D8659C /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		F14FBB8F2A058E2E00D8659C /* TabGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGestureView.swift; sourceTree = "<group>"; };
 		F15229E829A2461600D5940C /* KingfisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherView.swift; sourceTree = "<group>"; };
 		F1746D1E299ED0F10086C749 /* SwiftUITour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1746D21299ED0F10086C749 /* SwiftUITourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITourApp.swift; sourceTree = "<group>"; };
@@ -109,6 +117,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F10043652A052D6900E1C976 /* OtherViews */ = {
+			isa = PBXGroup;
+			children = (
+				F10043662A052D7800E1C976 /* TimerView.swift */,
+				F14FBB8B2A0555DE00D8659C /* TextEditingView.swift */,
+				F14FBB8D2A0557FB00D8659C /* LabelView.swift */,
+				F14FBB8F2A058E2E00D8659C /* TabGestureView.swift */,
+			);
+			path = OtherViews;
+			sourceTree = "<group>";
+		};
 		F10EBA0A2A0190C400647C17 /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -275,6 +294,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F10043652A052D6900E1C976 /* OtherViews */,
 				F1BFF0CB2A031E8200A343E8 /* PropertyWrapper */,
 				F12517F42A01AC3700A74387 /* ApiConnectionWithAlamofireV2 */,
 				F130790A2A01904800983B81 /* ApiConnectionWithAlamofire */,
@@ -581,6 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14FBB902A058E2E00D8659C /* TabGestureView.swift in Sources */,
 				F12517FE2A01ADC700A74387 /* UserService.swift in Sources */,
 				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
 				F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */,
@@ -609,11 +630,14 @@
 				F127D3E329A8F36A003E6F5A /* TweetListView.swift in Sources */,
 				F1BFF0D12A031F8C00A343E8 /* UserWrapperModel.swift in Sources */,
 				F1BFF0CF2A031F7800A343E8 /* UpperCaseWrapper.swift in Sources */,
+				F10043672A052D7800E1C976 /* TimerView.swift in Sources */,
 				F12518002A01AE3900A74387 /* ServicePathEnum.swift in Sources */,
+				F14FBB8C2A0555DE00D8659C /* TextEditingView.swift in Sources */,
 				F1AF7D762A01932500FC2524 /* EndPointEnum.swift in Sources */,
 				F127D3E829A8FF66003E6F5A /* TweetView.swift in Sources */,
 				F12518072A01B1A100A74387 /* UserViewModel.swift in Sources */,
 				F1AF7D712A0192C300FC2524 /* FoxModel.swift in Sources */,
+				F14FBB8E2A0557FB00D8659C /* LabelView.swift in Sources */,
 				F12518022A01B01700A74387 /* Logging+AFError.swift in Sources */,
 				F1AA8F6129D33773001E612E /* UserDetailView.swift in Sources */,
 				F1746D35299EDB6C0086C749 /* MyStackView.swift in Sources */,
