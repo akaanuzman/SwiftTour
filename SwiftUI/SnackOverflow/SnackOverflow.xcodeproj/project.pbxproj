@@ -16,7 +16,6 @@
 		F1BCA5302A05C3D6007F1648 /* ImageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */; };
 		F1BCA5332A05C69E007F1648 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5322A05C69E007F1648 /* ColorExtensions.swift */; };
 		F1BCA5352A05C9EE007F1648 /* IconEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5342A05C9EE007F1648 /* IconEnum.swift */; };
-		F1BCA5372A05CAC0007F1648 /* StringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5362A05CAC0007F1648 /* StringEnum.swift */; };
 		F1BCA53A2A05CBF3007F1648 /* FacebookButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5392A05CBF3007F1648 /* FacebookButton.swift */; };
 		F1BCA5422A066C60007F1648 /* LocaleKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BCA5412A066C60007F1648 /* LocaleKeys.swift */; };
 		F1FE9E162A066FF800467ED3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1FE9E182A066FF800467ED3 /* Localizable.strings */; };
@@ -27,6 +26,8 @@
 		F1FE9E242A068AE300467ED3 /* DividerSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E232A068AE300467ED3 /* DividerSize.swift */; };
 		F1FE9E262A068B1F00467ED3 /* EmailButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E252A068B1F00467ED3 /* EmailButton.swift */; };
 		F1FE9E282A068DE200467ED3 /* Dynamic+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E272A068DE200467ED3 /* Dynamic+GeometryProxy.swift */; };
+		F1FE9E2B2A06A7DF00467ED3 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */; };
+		F1FE9E2D2A06AA1D00467ED3 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E2C2A06AA1D00467ED3 /* DefaultButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,6 @@
 		F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnum.swift; sourceTree = "<group>"; };
 		F1BCA5322A05C69E007F1648 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		F1BCA5342A05C9EE007F1648 /* IconEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconEnum.swift; sourceTree = "<group>"; };
-		F1BCA5362A05CAC0007F1648 /* StringEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEnum.swift; sourceTree = "<group>"; };
 		F1BCA5392A05CBF3007F1648 /* FacebookButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookButton.swift; sourceTree = "<group>"; };
 		F1BCA5412A066C60007F1648 /* LocaleKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleKeys.swift; sourceTree = "<group>"; };
 		F1FE9E172A066FF800467ED3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		F1FE9E232A068AE300467ED3 /* DividerSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerSize.swift; sourceTree = "<group>"; };
 		F1FE9E252A068B1F00467ED3 /* EmailButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailButton.swift; sourceTree = "<group>"; };
 		F1FE9E272A068DE200467ED3 /* Dynamic+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamic+GeometryProxy.swift"; sourceTree = "<group>"; };
+		F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		F1FE9E2C2A06AA1D00467ED3 /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 		F1BCA52A2A05C15E007F1648 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				F1FE9E292A06A7D300467ED3 /* Onboard */,
 				F1BCA52B2A05C176007F1648 /* Welcome */,
 			);
 			path = Authentication;
@@ -169,7 +172,6 @@
 				F1FE9E222A068AD400467ED3 /* Size */,
 				F1BCA52F2A05C3D6007F1648 /* ImageEnum.swift */,
 				F1BCA5342A05C9EE007F1648 /* IconEnum.swift */,
-				F1BCA5362A05CAC0007F1648 /* StringEnum.swift */,
 				F1FE9E1A2A06727F00467ED3 /* PaddingEnum.swift */,
 				F1FE9E1E2A06747B00467ED3 /* RadiusEnum.swift */,
 			);
@@ -209,6 +211,7 @@
 				F1FE9E1C2A0672EC00467ED3 /* GoogleButton.swift */,
 				F1FE9E202A06765600467ED3 /* AppleButton.swift */,
 				F1FE9E252A068B1F00467ED3 /* EmailButton.swift */,
+				F1FE9E2C2A06AA1D00467ED3 /* DefaultButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -219,6 +222,14 @@
 				F1FE9E232A068AE300467ED3 /* DividerSize.swift */,
 			);
 			path = Size;
+			sourceTree = "<group>";
+		};
+		F1FE9E292A06A7D300467ED3 /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */,
+			);
+			path = Onboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +307,6 @@
 			files = (
 				F1BCA5422A066C60007F1648 /* LocaleKeys.swift in Sources */,
 				F1FE9E242A068AE300467ED3 /* DividerSize.swift in Sources */,
-				F1BCA5372A05CAC0007F1648 /* StringEnum.swift in Sources */,
 				F1FE9E1F2A06747B00467ED3 /* RadiusEnum.swift in Sources */,
 				F1BCA5332A05C69E007F1648 /* ColorExtensions.swift in Sources */,
 				F1BCA52D2A05C186007F1648 /* WelcomeView.swift in Sources */,
@@ -306,9 +316,11 @@
 				F1BCA5352A05C9EE007F1648 /* IconEnum.swift in Sources */,
 				F1BCA53A2A05CBF3007F1648 /* FacebookButton.swift in Sources */,
 				F1BCA5302A05C3D6007F1648 /* ImageEnum.swift in Sources */,
+				F1FE9E2B2A06A7DF00467ED3 /* OnboardView.swift in Sources */,
 				F1FE9E1B2A06727F00467ED3 /* PaddingEnum.swift in Sources */,
 				F1BCA5132A05A95B007F1648 /* SnackOverflowApp.swift in Sources */,
 				F1FE9E282A068DE200467ED3 /* Dynamic+GeometryProxy.swift in Sources */,
+				F1FE9E2D2A06AA1D00467ED3 /* DefaultButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
