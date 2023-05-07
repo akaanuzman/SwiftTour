@@ -16,7 +16,7 @@ struct AppleButton: View {
         }.buttonBorderShape(.roundedRectangle)
             .controlSize(.large)
             .background(.black)
-            .cornerRadius(RadiusEnum.low.rawValue)
+            .cornerRadius(RadiusEnum.normal.rawValue)
     }
 }
 

@@ -28,6 +28,9 @@
 		F1FE9E282A068DE200467ED3 /* Dynamic+GeometryProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E272A068DE200467ED3 /* Dynamic+GeometryProxy.swift */; };
 		F1FE9E2B2A06A7DF00467ED3 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */; };
 		F1FE9E2D2A06AA1D00467ED3 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E2C2A06AA1D00467ED3 /* DefaultButton.swift */; };
+		F1FE9E2F2A07D7DE00467ED3 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E2E2A07D7DE00467ED3 /* FontSize.swift */; };
+		F1FE9E312A07D93900467ED3 /* OnboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E302A07D93900467ED3 /* OnboardModel.swift */; };
+		F1FE9E332A07DFF300467ED3 /* HeightSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FE9E322A07DFF300467ED3 /* HeightSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		F1FE9E272A068DE200467ED3 /* Dynamic+GeometryProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dynamic+GeometryProxy.swift"; sourceTree = "<group>"; };
 		F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
 		F1FE9E2C2A06AA1D00467ED3 /* DefaultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		F1FE9E2E2A07D7DE00467ED3 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		F1FE9E302A07D93900467ED3 /* OnboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardModel.swift; sourceTree = "<group>"; };
+		F1FE9E322A07DFF300467ED3 /* HeightSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				F1FE9E232A068AE300467ED3 /* DividerSize.swift */,
+				F1FE9E2E2A07D7DE00467ED3 /* FontSize.swift */,
+				F1FE9E322A07DFF300467ED3 /* HeightSize.swift */,
 			);
 			path = Size;
 			sourceTree = "<group>";
@@ -228,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				F1FE9E2A2A06A7DF00467ED3 /* OnboardView.swift */,
+				F1FE9E302A07D93900467ED3 /* OnboardModel.swift */,
 			);
 			path = Onboard;
 			sourceTree = "<group>";
@@ -311,6 +320,9 @@
 				F1BCA5332A05C69E007F1648 /* ColorExtensions.swift in Sources */,
 				F1BCA52D2A05C186007F1648 /* WelcomeView.swift in Sources */,
 				F1FE9E1D2A0672EC00467ED3 /* GoogleButton.swift in Sources */,
+				F1FE9E332A07DFF300467ED3 /* HeightSize.swift in Sources */,
+				F1FE9E2F2A07D7DE00467ED3 /* FontSize.swift in Sources */,
+				F1FE9E312A07D93900467ED3 /* OnboardModel.swift in Sources */,
 				F1FE9E212A06765600467ED3 /* AppleButton.swift in Sources */,
 				F1FE9E262A068B1F00467ED3 /* EmailButton.swift in Sources */,
 				F1BCA5352A05C9EE007F1648 /* IconEnum.swift in Sources */,

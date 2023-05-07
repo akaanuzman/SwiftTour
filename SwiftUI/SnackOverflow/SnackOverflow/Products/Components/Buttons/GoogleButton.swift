@@ -16,7 +16,7 @@ struct GoogleButton: View {
         }.buttonBorderShape(.roundedRectangle)
             .controlSize(.large)
             .background(.white)
-            .cornerRadius(RadiusEnum.low.rawValue)
+            .cornerRadius(RadiusEnum.normal.rawValue)
     }
 }
 

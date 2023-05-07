@@ -3,7 +3,7 @@ import SwiftUI
 struct WelcomeView: View {
     var body: some View {
         ZStack {
-            Image(ImageEnum.imgJuice.rawValue).resizable()
+            Image(ImageEnum.image.imgJuice.rawValue).resizable()
             Color.black30
             BodyView()
         }

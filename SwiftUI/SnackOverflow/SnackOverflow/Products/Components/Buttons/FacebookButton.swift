@@ -16,7 +16,7 @@ struct FacebookButton: View {
         }.buttonBorderShape(.roundedRectangle)
             .controlSize(.large)
             .background(Color.deepSkyBlue)
-            .cornerRadius(RadiusEnum.low.rawValue)
+            .cornerRadius(RadiusEnum.normal.rawValue)
     }
 }
 

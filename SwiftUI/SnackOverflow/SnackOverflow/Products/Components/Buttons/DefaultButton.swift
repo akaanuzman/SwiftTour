@@ -20,7 +20,7 @@ struct DefaultButton: View {
         }.buttonBorderShape(.roundedRectangle)
             .controlSize(.large)
             .background(bgColor ?? Color.peach)
-            .cornerRadius(RadiusEnum.low.rawValue)
+            .cornerRadius(RadiusEnum.normal.rawValue)
     }
 }
     
