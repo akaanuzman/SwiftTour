@@ -58,6 +58,9 @@
 		F1BFF0D62A0322D500A343E8 /* PropertyWrapperSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BFF0D52A0322D500A343E8 /* PropertyWrapperSampleView.swift */; };
 		F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0D99929D4954C00D1CE85 /* TabbarModel.swift */; };
 		F1D0D99C29D496E100D1CE85 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D0D99B29D496E100D1CE85 /* TabbarView.swift */; };
+		F1F7FF032A7F1AAE00E16392 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7FF022A7F1AAE00E16392 /* FirstView.swift */; };
+		F1F7FF052A7F1C1A00E16392 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7FF042A7F1C1A00E16392 /* SecondView.swift */; };
+		F1F7FF072A7F1E7200E16392 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F7FF062A7F1E7200E16392 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +114,9 @@
 		F1BFF0D52A0322D500A343E8 /* PropertyWrapperSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperSampleView.swift; sourceTree = "<group>"; };
 		F1D0D99929D4954C00D1CE85 /* TabbarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarModel.swift; sourceTree = "<group>"; };
 		F1D0D99B29D496E100D1CE85 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		F1F7FF022A7F1AAE00E16392 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F1F7FF042A7F1C1A00E16392 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F1F7FF062A7F1E7200E16392 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +330,7 @@
 		F1746D20299ED0F10086C749 /* SwiftUITour */ = {
 			isa = PBXGroup;
 			children = (
+				F1F7FF012A7F1A9300E16392 /* View Lifecycle */,
 				F1068DA62A059F6100FFF8BE /* ViewModifier */,
 				F1068DA12A059DCE00FFF8BE /* Localizable */,
 				F10043652A052D6900E1C976 /* OtherViews */,
@@ -551,6 +558,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		F1F7FF012A7F1A9300E16392 /* View Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				F1F7FF022A7F1AAE00E16392 /* FirstView.swift */,
+				F1F7FF042A7F1C1A00E16392 /* SecondView.swift */,
+				F1F7FF062A7F1E7200E16392 /* ThirdView.swift */,
+			);
+			path = "View Lifecycle";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -639,6 +656,7 @@
 				F12517FE2A01ADC700A74387 /* UserService.swift in Sources */,
 				F19A49FB29A4269100965597 /* ListView.swift in Sources */,
 				F127D3E529A8F381003E6F5A /* TweetModel.swift in Sources */,
+				F1F7FF072A7F1E7200E16392 /* ThirdView.swift in Sources */,
 				F125180B2A01B26500A74387 /* UserView.swift in Sources */,
 				F15229E929A2461600D5940C /* KingfisherView.swift in Sources */,
 				F1BFF0D32A03220600A343E8 /* IntToStringWrapper.swift in Sources */,
@@ -651,9 +669,11 @@
 				F17A3F2429DE38D7008DC32B /* Spacer+Constant.swift in Sources */,
 				F1AF7D732A0192EC00FC2524 /* FoxService.swift in Sources */,
 				F19A49F829A41D7100965597 /* CircleImageView.swift in Sources */,
+				F1F7FF032A7F1AAE00E16392 /* FirstView.swift in Sources */,
 				F1746D3C299EE2390086C749 /* CustomHeadlineText.swift in Sources */,
 				F1AF7D782A01947800FC2524 /* FoxViewModel.swift in Sources */,
 				F1D0D99A29D4954C00D1CE85 /* TabbarModel.swift in Sources */,
+				F1F7FF052A7F1C1A00E16392 /* SecondView.swift in Sources */,
 				F1BFF0D62A0322D500A343E8 /* PropertyWrapperSampleView.swift in Sources */,
 				F17A3F2A29DE3C92008DC32B /* DateControlView.swift in Sources */,
 				F17A3F2629DE396F008DC32B /* EnviromentView.swift in Sources */,
