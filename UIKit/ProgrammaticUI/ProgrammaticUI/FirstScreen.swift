@@ -48,3 +48,7 @@ class FirstScreen: UIViewController {
 
 }
 
+#Preview("First Screen", device: .iPhone12ProMax)) {
+    FirstScreen()
+}
+
