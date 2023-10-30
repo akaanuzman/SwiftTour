@@ -5,25 +5,25 @@
 //  Created by Kaan Uzman on 25/10/23.
 //
 
+import SnapKit
 import UIKit
 
-class OnboardVC: ViewController {
+final class OnBoardVC: ViewController {
+    override func loadView() {
+        let onBoardView = OnBoardView()
+        view = onBoardView
+        onBoardView.delegate = self
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
+extension OnBoardVC: OnBoardViewProtocol {
+    func onTappedListenButton() {}
+}
+
+ #Preview {
+    OnBoardVC()
+ }

@@ -13,6 +13,16 @@
 		F1A9130E2AE9611E00DA039D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A9130C2AE9611E00DA039D /* Main.storyboard */; };
 		F1A913102AE9611F00DA039D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A9130F2AE9611F00DA039D /* Assets.xcassets */; };
 		F1A913132AE9611F00DA039D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A913112AE9611F00DA039D /* LaunchScreen.storyboard */; };
+		F1A913202AE9661E00DA039D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F1A9131F2AE9661E00DA039D /* SnapKit */; };
+		F1A913222AE9661E00DA039D /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = F1A913212AE9661E00DA039D /* SnapKit-Dynamic */; };
+		F1A913282AE9673C00DA039D /* ButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A913272AE9673C00DA039D /* ButtonSize.swift */; };
+		F1A9132A2AE967AB00DA039D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A913292AE967AB00DA039D /* Theme.swift */; };
+		F1A9132C2AE96A2A00DA039D /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9132B2AE96A2A00DA039D /* FontSize.swift */; };
+		F1A9132F2AE96AE300DA039D /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A9132E2AE96AE300DA039D /* UIFont+Ext.swift */; };
+		F1A913312AE96BEA00DA039D /* OnBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A913302AE96BEA00DA039D /* OnBoardVC.swift */; };
+		F1E95ABF2AF04A5D00A5BD18 /* RadiusSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E95ABE2AF04A5D00A5BD18 /* RadiusSize.swift */; };
+		F1E95AC22AF04BFA00A5BD18 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E95AC12AF04BFA00A5BD18 /* OnBoardView.swift */; };
+		F1E95AC42AF04FF900A5BD18 /* UIWindow+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E95AC32AF04FF900A5BD18 /* UIWindow+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,14 @@
 		F1A9130F2AE9611F00DA039D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A913122AE9611F00DA039D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1A913142AE9611F00DA039D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A913272AE9673C00DA039D /* ButtonSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSize.swift; sourceTree = "<group>"; };
+		F1A913292AE967AB00DA039D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F1A9132B2AE96A2A00DA039D /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		F1A9132E2AE96AE300DA039D /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
+		F1A913302AE96BEA00DA039D /* OnBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardVC.swift; sourceTree = "<group>"; };
+		F1E95ABE2AF04A5D00A5BD18 /* RadiusSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusSize.swift; sourceTree = "<group>"; };
+		F1E95AC12AF04BFA00A5BD18 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		F1E95AC32AF04FF900A5BD18 /* UIWindow+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A913202AE9661E00DA039D /* SnapKit in Frameworks */,
+				F1A913222AE9661E00DA039D /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,95 @@
 		F1A913052AE9611E00DA039D /* PodcastApp */ = {
 			isa = PBXGroup;
 			children = (
-				F1A913062AE9611E00DA039D /* AppDelegate.swift */,
-				F1A913082AE9611E00DA039D /* SceneDelegate.swift */,
-				F1A9130A2AE9611E00DA039D /* ViewController.swift */,
-				F1A9130C2AE9611E00DA039D /* Main.storyboard */,
-				F1A9130F2AE9611F00DA039D /* Assets.xcassets */,
-				F1A913112AE9611F00DA039D /* LaunchScreen.storyboard */,
-				F1A913142AE9611F00DA039D /* Info.plist */,
+				F1A9131D2AE9656800DA039D /* Asset */,
+				F1A9131A2AE964F900DA039D /* Base */,
+				F1A9131B2AE9650E00DA039D /* Common */,
+				F1A9131C2AE9651200DA039D /* Feature */,
 			);
 			path = PodcastApp;
+			sourceTree = "<group>";
+		};
+		F1A9131A2AE964F900DA039D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9130C2AE9611E00DA039D /* Main.storyboard */,
+				F1A913112AE9611F00DA039D /* LaunchScreen.storyboard */,
+				F1A9130A2AE9611E00DA039D /* ViewController.swift */,
+				F1A913082AE9611E00DA039D /* SceneDelegate.swift */,
+				F1A913062AE9611E00DA039D /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F1A9131B2AE9650E00DA039D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9132D2AE96ACC00DA039D /* Extension */,
+				F1A913262AE9664800DA039D /* Size */,
+				F1A913242AE9663500DA039D /* Theme */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1A9131C2AE9651200DA039D /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F1A913232AE9662200DA039D /* Onboard */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		F1A9131D2AE9656800DA039D /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9130F2AE9611F00DA039D /* Assets.xcassets */,
+				F1A913142AE9611F00DA039D /* Info.plist */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		F1A913232AE9662200DA039D /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				F1E95AC02AF04BE500A5BD18 /* View */,
+				F1A913302AE96BEA00DA039D /* OnBoardVC.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		F1A913242AE9663500DA039D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F1A913292AE967AB00DA039D /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F1A913262AE9664800DA039D /* Size */ = {
+			isa = PBXGroup;
+			children = (
+				F1A913272AE9673C00DA039D /* ButtonSize.swift */,
+				F1A9132B2AE96A2A00DA039D /* FontSize.swift */,
+				F1E95ABE2AF04A5D00A5BD18 /* RadiusSize.swift */,
+			);
+			path = Size;
+			sourceTree = "<group>";
+		};
+		F1A9132D2AE96ACC00DA039D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1A9132E2AE96AE300DA039D /* UIFont+Ext.swift */,
+				F1E95AC32AF04FF900A5BD18 /* UIWindow+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F1E95AC02AF04BE500A5BD18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1E95AC12AF04BFA00A5BD18 /* OnBoardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +183,10 @@
 			dependencies = (
 			);
 			name = PodcastApp;
+			packageProductDependencies = (
+				F1A9131F2AE9661E00DA039D /* SnapKit */,
+				F1A913212AE9661E00DA039D /* SnapKit-Dynamic */,
+			);
 			productName = PodcastApp;
 			productReference = F1A913032AE9611E00DA039D /* PodcastApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +215,9 @@
 				Base,
 			);
 			mainGroup = F1A912FA2AE9611E00DA039D;
+			packageReferences = (
+				F1A9131E2AE9661E00DA039D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F1A913042AE9611E00DA039D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1A913312AE96BEA00DA039D /* OnBoardVC.swift in Sources */,
+				F1A9132F2AE96AE300DA039D /* UIFont+Ext.swift in Sources */,
 				F1A9130B2AE9611E00DA039D /* ViewController.swift in Sources */,
+				F1A9132C2AE96A2A00DA039D /* FontSize.swift in Sources */,
+				F1E95ABF2AF04A5D00A5BD18 /* RadiusSize.swift in Sources */,
 				F1A913072AE9611E00DA039D /* AppDelegate.swift in Sources */,
+				F1E95AC42AF04FF900A5BD18 /* UIWindow+Ext.swift in Sources */,
+				F1E95AC22AF04BFA00A5BD18 /* OnBoardView.swift in Sources */,
+				F1A9132A2AE967AB00DA039D /* Theme.swift in Sources */,
+				F1A913282AE9673C00DA039D /* ButtonSize.swift in Sources */,
 				F1A913092AE9611E00DA039D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +478,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1A9131E2AE9661E00DA039D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1A9131F2AE9661E00DA039D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1A9131E2AE9661E00DA039D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F1A913212AE9661E00DA039D /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1A9131E2AE9661E00DA039D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1A912FB2AE9611E00DA039D /* Project object */;
 }
