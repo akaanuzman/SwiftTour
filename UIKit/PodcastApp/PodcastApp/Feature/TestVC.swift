@@ -10,6 +10,7 @@ import UIKit
 class TestVC: UIViewController {
 
     override func viewDidLoad() {
+        view.backgroundColor = .red
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
